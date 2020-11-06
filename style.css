@@ -1,0 +1,19 @@
+body{
+    background-color: floralwhite;
+}
+#container{
+    display: grid;
+    background-color: floralwhite;
+    border: 10px solid black;
+    width: 960px;
+    height: 960px;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+}
+#reset{
+    background-color: lightblue;
+    border: lightblue 1px solid;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
