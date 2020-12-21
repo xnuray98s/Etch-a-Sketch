@@ -1,19 +1,31 @@
 body{
     background-color: floralwhite;
+    
 }
 #container{
     display: grid;
     background-color: floralwhite;
     border: 10px solid black;
-    width: 960px;
-    height: 960px;
+    width: 600px;
+    height: 600px;
     position: fixed;
-    top: 60px;
-    left: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 #reset{
     background-color: lightblue;
     border: lightblue 1px solid;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+p{
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
 }
