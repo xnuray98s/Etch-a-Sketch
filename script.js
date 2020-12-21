@@ -6,7 +6,7 @@ function createDivs(num = 16) {
         for(let x=0; x< num**2; x++) {
             let div = document.createElement('div');
             div.className = "grid_block";
-            div.style.cssText = 'border: 3px solid black';
+            div.style.cssText = 'border: 3px solid black;';
             container.appendChild(div);
             }
         }
